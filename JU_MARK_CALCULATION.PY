@@ -1,0 +1,10 @@
+#1st semester + 2nd semester = 1 year
+y1st=float(input("Enter your first semester Number : "))
+y2nd=float(input("Enter your second semester Number : "))
+a=((y1st + y2nd)/2)
+b=((a-0.75)*10)
+t1marks=float(input("Enter your 1st semester total marks : "))
+t2marks=float(input("Enter your 2nd semester total marks : "))
+tmarks=(t1marks+t2marks)
+total_marks_obtained=((b/100)*tmarks)
+print("congrats!!! you obtain ",total_marks_obtained,"/", tmarks)
